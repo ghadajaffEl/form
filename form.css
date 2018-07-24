@@ -1,0 +1,58 @@
+body{
+background: linear-gradient(270deg, #2f3749, #392350, #d0b7e8);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#form{
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+	float: right;
+	margin-top: 0.5vw;
+    margin-right: 20vw;
+    width: 25vw;
+
+}
+
+input {
+	height: 2.5vw;
+	margin: 1vw;
+	background-color: #161C2B;
+    border:0.1vw solid #010511;
+    color: white;
+
+}
+
+textarea{
+	height:4vw; 
+	width:auto;
+	margin: 1vw;
+	background-color: #161C2B;
+    border:0.1vw solid #010511;
+    color: white;
+}
+label {
+	color: white;
+	margin: 0.8vw;
+	font-family: sans-serif;
+
+}
